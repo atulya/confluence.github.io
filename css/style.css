@@ -91,6 +91,11 @@ h1, h2, h3, h4, h5 {
 	position: fixed;
 	left: 0;
 }
+.naviG img{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
 .naviG h4{
 	color: #fff;	
 	transform: rotate(-90deg);
@@ -98,13 +103,17 @@ h1, h2, h3, h4, h5 {
 	text-transform: uppercase;
 	cursor: pointer;
 }
+.naviG i{
+	float: left;
+	margin: 0 0 0 -20px;
+}
 .blocks .box{
 	width: 25%;
 	height: 250px;
-	background: #ffcc33;
 	float: left;
-	background: url('../images/DSC_0691.jpg');
+	background-image: url('../images/11.png');
 	background-size: 110% 110%; 
+	background-position: center center;
 	transition: 0.30s;
 }
 .blocks .box:hover{
@@ -134,4 +143,16 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 2px solid #999;
 	margin: 0 auto;
 	margin-bottom: 30px;
+}
+.degreeFont{
+	font-size: 12px;
+}
+.footer{
+	height: 30px;
+	background: #111;
+	width: 97%;
+	text-align: right;
+	padding: 20px 3% 0 0;
+	font-size: 16px;
+	color: #FFF;
 }
