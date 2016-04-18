@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 	background-color: #01976c;
 	background-size: 70% 70%;
 	background-position: bottom center;
+	box-sizing: border-box;
 }
 .headerBanner h2{
 	font-size: 65px;
@@ -83,6 +84,52 @@ h1, h2, h3, h4, h5 {
 .headerBanner h1 img{
 	height: auto;
 	width: 100%;
+}
+.innerPage{
+	width: 73%;
+  margin: 0 0 0 350px;
+  height: 400px;
+	text-align: center;
+	background-image: url('../images/ConfluenceLogoOne.png');
+	background-repeat: no-repeat;
+	background-color: #01976c;
+	background-size: 70% 70%;
+	background-position: bottom center;
+}
+.logo {
+	width: 60%;
+	margin: 30px auto;
+}
+.logo img{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.subMenu{
+	width: 80%;
+	margin: 0 auto;
+	text-align: right;
+}
+.subMenu li{
+	display: block;
+	margin-bottom: 20px;
+	font-family: "museo_slab500";
+	font-size: 22px;
+}
+.subMenu li a{
+	text-decoration: none;
+	color: #222;
+}
+.subMenu li a:after{
+	content: "";
+	border-bottom: 3px solid #c1c1c1;
+	transform: rotate(180deg);
+	position: absolute;
+	width: 20px;
+	margin: 15px 0 0 15px;
+}
+.subMenu li a:hover{
+	color: #01976c;
 }
 .naviG{
 	width: 50px;
@@ -126,6 +173,8 @@ h1, h2, h3, h4, h5 {
 	background-position: 100%;
 	padding: 60px 40px;
 	text-align: center;
+	width: 100%;
+ 	box-sizing: border-box;
 }
 .contentHome{
 	font-family: 'museo_slab300';
@@ -155,4 +204,20 @@ h1, h2, h3, h4, h5 {
 	padding: 20px 3% 0 0;
 	font-size: 16px;
 	color: #FFF;
+}
+.sideNavi{
+	width: 350px;
+	height: 100%;
+	position: fixed;
+	background: #f1f1f1;
+}
+.paras{
+	background: #FFF;
+	background-image: url(../images/White-Abstract-HD-Wallpapers.jpg);
+	background-position: 100%;
+	padding: 60px 40px;
+	text-align: center;
+	width: 73%;
+ 	box-sizing: border-box;
+	margin: 0 0 0 350px;
 }
