@@ -131,24 +131,50 @@ h1, h2, h3, h4, h5 {
 .subMenu li a:hover{
 	color: #01976c;
 }
-.naviG{
-	width: 50px;
-	background: #222;
+.naviGation{
+	width: 0px;
 	height: 100%;
 	position: fixed;
-	left: 0;
+	left: 0px;
+	border-right: 50px solid #000;
+	z-index: 2;
 }
-.naviG img{
+.naviGation h4{
+  color: #fff;
+  transform: rotate(-90deg);
+  margin: 55px 0px 0 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 56px;
+  z-index: 2;
+  position: absolute;
+  left: -5px;
+}
+.naviGation img{
 	position: absolute;
 	bottom: 10px;
 	left: 10px;
 }
+
+.naviG{
+	width: 350px;
+	background: #222;
+	height: 100%;
+	position: fixed;
+	/*left: -350px;*/
+	border-right: 50px solid #000
+	z-index: -1;
+	display: none;
+	opacity: 0.9;
+}
 .naviG h4{
 	color: #fff;	
 	transform: rotate(-90deg);
-	margin-top: 30px;
+	margin: 30px -50px 0 0;
 	text-transform: uppercase;
 	cursor: pointer;
+	width: 50px;
+	float: right;
 }
 .naviG i{
 	float: left;
@@ -220,4 +246,13 @@ h1, h2, h3, h4, h5 {
 	width: 73%;
  	box-sizing: border-box;
 	margin: 0 0 0 350px;
+}
+.openDoc{
+	position: absolute;
+	left: 0px;	
+}
+.mouseIcon {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
 }
