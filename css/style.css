@@ -157,15 +157,37 @@ h1, h2, h3, h4, h5 {
 }
 
 .naviG{
-	width: 350px;
+	width: 290px;
+	position: fixed;
 	background: #222;
 	height: 100%;
-	position: fixed;
-	/*left: -350px;*/
-	border-right: 50px solid #000
-	z-index: -1;
-	display: none;
 	opacity: 0.9;
+	padding: 0 35px 0 0;
+	box-sizing: border-box;
+	z-index: 1
+}
+.naviG ul{
+	width: 100%;
+}
+.naviG ul li{
+	margin: 0 0 20px 0;
+	padding: 0;
+	display: block;
+	text-align: right;
+}
+.naviG ul li a{
+	font-size: 25px;
+	text-decoration: none;
+	color: #FFF;
+	font-family: 'museo_slab500'
+}
+.naviG ul li a:after{
+	content: "";
+	border-bottom: 3px solid #fff;
+	transform: rotate(180deg);
+	position: absolute;
+	width: 20px;
+	margin: 15px 0 0 15px;
 }
 .naviG h4{
 	color: #fff;	
@@ -255,4 +277,7 @@ h1, h2, h3, h4, h5 {
   -vendor-animation-duration: 3s;
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
+}
+.menus{
+	padding: 250px 0 0 0;
 }
